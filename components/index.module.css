@@ -1,0 +1,28 @@
+/* ----------hero------------- styles */
+@media (min-width: 600px) {
+  .hero {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
+    padding: 5%;
+  }
+}
+
+.h_card,
+.h_card2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  margin-bottom: 1rem;
+}
+
+.h_card {
+  background-image: url("https://source.unsplash.com/yuZvQH1Ol0M/1600x900");
+}
+
+.h_card2 {
+  background-image: url("https://source.unsplash.com/fepsUbJFpyw/1600x900");
+}

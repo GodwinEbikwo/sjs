@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
+import { Hero } from "../components";
 
 export default function Home() {
   return (
@@ -38,6 +39,10 @@ export default function Home() {
             </span>
           </h1>
         </header>
+
+        <section>
+          <Hero href1="/posts/page-one" href2="/posts/page-two" />
+        </section>
       </main>
 
       <footer className={styles.footer}>
@@ -52,6 +57,13 @@ export default function Home() {
           <span className={styles.f_bold}>Contact</span>
           <span id={styles.footer__email}>
             <a href="#">SJS@hey.com</a>
+          </span>
+        </div>
+
+        <div id={styles.footer_contact}>
+          <span className={styles.f_bold}>Social Media</span>
+          <span id={styles.footer__email}>
+            <a href="#">twitter</a>
           </span>
         </div>
       </footer>
