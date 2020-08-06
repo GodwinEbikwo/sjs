@@ -40,21 +40,21 @@ export default function Home() {
           </h1>
         </header>
 
-        {/* <section>
+        <section>
           <div className={hstyles.hero}>
-            <Link href="/posts/first-page">
+            <Link href="/">
               <a>
                 <div className={hstyles.h_card}></div>
               </a>
             </Link>
 
-            <Link href="/posts/second-page">
+            <Link href="/">
               <a>
                 <div className={hstyles.h_card2}></div>
               </a>
             </Link>
           </div>
-        </section> */}
+        </section>
       </main>
 
       <footer className={homestyles.footer}>
