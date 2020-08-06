@@ -1,4 +1,4 @@
-import styles from "./index.module.css";
+import styles from "../styles/index.module.css";
 
 export const MyButton = React.forwardRef(({ onClick, href, href2 }, ref) => {
   return (

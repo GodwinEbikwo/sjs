@@ -2,11 +2,11 @@ import Layout from "../../components/layout";
 import utilStyles from "../../styles/utils.module.css";
 import Head from "next/Head";
 
-export default function PageTwo({}) {
+export default function PageTwo() {
   return (
     <Layout>
       <Head>
-        <title>Shit</title>
+        <title>Page-Two</title>
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>Dark buildings my heart</h1>

@@ -1,12 +1,12 @@
-import Layout from "../../components/layout";
+import Layout from "../../components/Layout";
 import utilStyles from "../../styles/utils.module.css";
 import Head from "next/Head";
 
-export default function PageOne({}) {
+export default function PageOne() {
   return (
     <Layout>
       <Head>
-        <title>Shit</title>
+        <title>Page-One</title>
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>How to get way with murder</h1>
