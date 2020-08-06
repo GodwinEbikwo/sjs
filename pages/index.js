@@ -42,13 +42,13 @@ export default function Home() {
 
         <section>
           <div className={hstyles.hero}>
-            <Link href="/posts/page-one">
+            <Link href="/posts/first-page">
               <a>
                 <div className={hstyles.h_card}></div>
               </a>
             </Link>
 
-            <Link href="/posts/page-two">
+            <Link href="/posts/second-page">
               <a>
                 <div className={hstyles.h_card2}></div>
               </a>
