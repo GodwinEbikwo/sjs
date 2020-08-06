@@ -2,7 +2,6 @@ import Head from "next/head";
 import styles from "../styles/layout.module.css";
 import Link from "next/link";
 
-const name = "Segun John";
 export const siteTitle = "Segun John Sowumin Personal Blog";
 
 export default function Layout({ children, home }) {
