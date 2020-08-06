@@ -1,0 +1,43 @@
+@media (min-width: 600px) {
+  .parent {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
+    padding: 5%;
+  }
+}
+
+.card,
+.card2,
+.card3,
+.card4 {
+  background-color: rgb(226, 209, 190);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 1rem;
+  height: 20rem;
+}
+
+.card {
+  background-image: url("https://source.unsplash.com/pVr6wvUneMk/1600x900");
+}
+
+.card h2,
+.card h4 {
+  text-align: center;
+}
+
+.card2 {
+  background-image: url("https://source.unsplash.com/x4RjgQpCXSk/1600x900");
+}
+
+.card3 {
+  background-image: url("https://source.unsplash.com/M4i8EOYZJtw/1600x900");
+}
+
+.card4 {
+  background-image: url("https://source.unsplash.com/cBXXcxmVs7g/1600x900");
+}

@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import homestyles from "../styles/Home.module.css";
 import hstyles from "../styles/index.module.css";
+import Card from "../components/card";
 
 export default function Home() {
   return (
@@ -54,6 +55,10 @@ export default function Home() {
               </a>
             </Link>
           </div>
+        </section>
+
+        <section>
+          <Card href1="/card-one" href2="/card-two" href3="" href4="" />
         </section>
       </main>
 
