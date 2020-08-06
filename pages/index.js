@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import hstyles from "../styles/index.module.css";
 import Link from "next/link";
 import { Hero } from "../components";
 
@@ -41,7 +42,19 @@ export default function Home() {
         </header>
 
         <section>
-          <Hero href1="/posts/page-one" href2="/posts/page-two" />
+          <div className={hstyles.hero}>
+            <Link href="/posts/page-one">
+              <a>
+                <div className={hstyles.h_card}></div>
+              </a>
+            </Link>
+
+            <Link href="/posts/page-two">
+              <a>
+                <div className={hstyles.h_card2}></div>
+              </a>
+            </Link>
+          </div>
         </section>
       </main>
 
