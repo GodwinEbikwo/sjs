@@ -40,7 +40,7 @@ export default function Home() {
           </h1>
         </header>
 
-        <section>
+        {/* <section>
           <div className={hstyles.hero}>
             <Link href="/posts/first-page">
               <a>
@@ -54,7 +54,7 @@ export default function Home() {
               </a>
             </Link>
           </div>
-        </section>
+        </section> */}
       </main>
 
       <footer className={homestyles.footer}>
