@@ -1,6 +1,6 @@
+import Head from "next/Head";
 import Layout from "../../components/layout";
 import utilStyles from "../../styles/utils.module.css";
-import Head from "next/Head";
 
 export default function PageTwo() {
   return (

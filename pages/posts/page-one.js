@@ -1,6 +1,6 @@
+import Head from "next/Head";
 import Layout from "../../components/Layout";
 import utilStyles from "../../styles/utils.module.css";
-import Head from "next/Head";
 
 export default function PageOne() {
   return (
